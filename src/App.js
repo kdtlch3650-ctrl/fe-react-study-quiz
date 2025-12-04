@@ -1,10 +1,11 @@
 import logo from './logo.svg';
 import './App.css';
 import Quiz01 from './components/Quiz01/Quiz01'
+import Quiz from './components/Quiz02/Quiz';
 
 function App() {
   return (
-    <Quiz01/>
+    <Quiz/>
     // <div className="App">
     //   <header className="App-header">
     //     <h1>
