@@ -27,6 +27,15 @@ function Quiz05Copy2() {
             <button onClick={() => {
                 setboxArr([...boxArr,'green']);
             }}>뒤초록박스추가</button>
+            <button onClick={() => {
+                let temp = [...boxArr];
+                temp.shift();
+                setboxArr(temp);
+            }}>앞 박스 삭제 </button><button onClick={() => {
+                let temp = [...boxArr];
+                temp.pop();
+                setboxArr(temp);
+            }}>뒤 박스 삭제</button>
             <br /><br />
             
             {
