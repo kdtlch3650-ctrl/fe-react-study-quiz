@@ -7,10 +7,11 @@ import Quiz04_2 from './components/Quiz04/Quiz04_2';
 import Quiz05 from './components/Quiz05/Quiz05';
 import Quiz05Copy from './components/Quiz05/Quiz05Copy';
 import Quiz05Copy2 from './components/Quiz05/Quiz05Copy2';
+import Quiz05Copy3 from './components/Quiz05/Quiz05Copy3';
 
 function App() {
   return (
-    <Quiz05Copy2/>
+    <Quiz05Copy3/>
     // <div className="App">
     //   <header className="App-header">
     //     <h1>
